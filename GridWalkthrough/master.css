@@ -1,0 +1,38 @@
+.cards {
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+
+}
+.card1 { grid-area: a; }
+.card2 { grid-area: b; }
+.card3 { grid-area: c; }
+.card4 { grid-area: d; }
+.card5 { grid-area: e; }
+
+.card1 {
+  background-color: #DED7FE;
+	grid-column: 1 / 3;
+	grid-row: 1;
+}
+.card2 {
+  background-color: #DED7FE;
+	grid-column: 3;
+	grid-row: 1;
+}
+.card3 {
+  background-color: #DED7FE;
+	grid-column: 1;
+	grid-row: 2 / 4;
+}
+.card4 {
+  background-color: #DED7FE;
+	grid-column: 2 / 4;
+	grid-row: 2;
+}
+.card5 {
+  background-color: #DED7FE;
+	grid-column: 2 / 4;
+	grid-row: 3;
+}
